@@ -85,6 +85,7 @@ width: 100%;
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease;
+    text-align: center;
 
 }
 
@@ -102,7 +103,7 @@ margin: auto;
 .blur
 {
 position: absolute;
-box-shadow: 0 0 1000px 50px #7a027a;
+box-shadow: 0 0 1000px 70px #7a027a;
 z-index: -100;
 }
  
@@ -276,13 +277,13 @@ font-size: 1.2rem;
 margin-right: 0.3rem;
 }
 
-.pricing .card button{
+.pricing .card a{
 color: #ffffff;
 background-color: transparent;
 border: 2px solid #fff;
 }
 
-.pricing .card button:hover{
+.pricing .card a:hover{
 background-color: #0f8ac4;
 border-color: #0f8ac4;
 }
